@@ -13,7 +13,7 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
-  displayName: 'dotnet build'
+  displayName: 'dotnet build src/VirtoCommerce.Platform.Web/VirtoCommerce.Platform.Web.csproj'
   inputs:
     command: 'build'
     configuration: $(buildConfiguration)
